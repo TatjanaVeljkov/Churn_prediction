@@ -1,7 +1,7 @@
 # Churn_prediction
-Problem description:
+## Problem description:
 Predicting whether a customer will change telecommunications provider, something known as "churning".
-Dataset info:
+## Dataset info:
 The training dataset contains 4250 samples. Each sample contains 19 features and 1 boolean variable "churn" which indicates the class of the sample. The 19 input features and 1 target variable are:
 - "state", string. 2-letter code of the US state of customer residence
 - "account_length", numerical. Number of months the customer has been with the current telco provider
@@ -24,7 +24,7 @@ The training dataset contains 4250 samples. Each sample contains 19 features and
 - "number_customer_service_calls", numerical. Number of calls to customer service
 - "churn", (yes/no). Customer churn - target variable.
 
-Steps applied: 
+## Steps applied: 
 -	EDA techniques for analysis
 -	Target Variable Analysis
 -	Univariate analysis of Categorical Features
@@ -35,4 +35,5 @@ Steps applied:
 -	Train/test split: with train (70%), test (30%) with random_state = 0
 -	Train the model
 -	Evaluate the model
-  Target: Achieve accuracy on test set >=0.90
+ 
+## Target: Achieve accuracy on test set >=0.90
